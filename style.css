@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  background-color: black;
+}
+.topnav {
+  background-color: #0b0c10;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  opacity: 0.6;
+}
+
+.topnav a:hover {
+  color: white;
+  opacity: 1;
+}
+h1 {
+  text-align: center;
+  font-size: 100px;
+  padding-top: 60px;
+  color: #66fcf1;
+}
+p {
+  color: white;
+  text-align: center;
+}
+.description{
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+img{
+  height: 200px;
+  padding-left: 535px;
+  padding-top: 50px;
+}
+img:hover{
+  opacity: 0.5;
+  
+}
