@@ -1,2 +1,2 @@
 # Derajatul.github.io
-Web portofolio yang menggunakan bootstrap
+Web portofolio yang menggunakan Tailwind
