@@ -12,9 +12,7 @@ nav{
 .hero-section {
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: row;
 	align-items: center;
-	font-family: 'Montserrat', sans-serif;
 	height: 100vh;
 	margin-top: 20px;
 }
