@@ -1,0 +1,57 @@
+
+body {
+	background-color: #0f172a;
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+nav{
+	background-color: #0b101e;
+}
+/*hero section*/
+.hero-section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin-top: 20px;
+}
+
+.profile {
+	flex: 1;
+	padding: 0 25px;
+}
+.gambar {
+	flex: 1;
+}
+.anjime {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.nama {
+	color: #c341da;
+}
+
+.thin {
+	font-weight: 100;
+	font-style: italic;
+	color: rgb(220, 220, 220);
+}
+.btn {
+	height: 50px;
+	width: 200px;
+	background-color: #c341da;
+	margin-top: 15px;
+	border-radius: 0.75rem;
+}
+.btn:hover {
+	background-color: white;
+}
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+}
