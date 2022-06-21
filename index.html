@@ -4,28 +4,78 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Derajatul</title>
-		<script src="https://cdn.tailwindcss.com"></script>
+		<title>Dera</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+
+		<style>
+			@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+		</style>
 	</head>
-	<body class="dark:bg-slate-900 dark:text-slate-200" style>
-		<section id="home">
-			<div class="container">
-				<div class="flex flex-wrap mt-32 pl-6">
-					<div class="w-full selft-center px-4">
-						
-						<h1
-							class="bg-gradient-to-r from-fuchsia-500 to-sky-500 bg-clip-text text-transparent font-bold text-4xl"
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+				<div class="container">
+					<a class="navbar-brand" href="#">Dera</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Blog</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!--Hero Section-->
+			<div class="hero-section">
+				<div class="profile">
+					<h1 class="nama">Deraaa</h1>
+					<h3>Front-End developer</h3>
+					<p class="thin">
+						"Ever Tried. Ever failed. No matter. Try again. Fail again. Fail
+						better." <br />-Samuel Beckett
+					</p>
+					<button class="btn">
+						<a
+							href="https://www.instagram.com/cybernaut2303/?hl=id"
+							target="_blank"
+							>Hubungi Saya</a
 						>
-							Derajatul
-						</h1>
-						<h2 class="font-semibold mt-1">Front End Developer</h2>
-						<p class="italic font-thin mt-2 mb-7">
-							"You must do the things you think you cannot do." -Eleanor Roosevelt
-                        </p>
-                        <a href="https://www.instagram.com/deraa2303/?hl=id" class="bg-gradient-to-r from-fuchsia-500 to-sky-500 text-black font-semibold py-3 px-8 hover:opacity-50">Hubungi Saya</a>
+					</button>
+				</div>
+				<div class="gambar">
+					<div class="anjime">
+						<img src="img/kousei-removebg-preview.png" alt="Kousei" />
 					</div>
 				</div>
 			</div>
-		</section>
+			<!--Akhir Hero Section-->
+		</header>
+
+		<main></main>
+		<footer></footer>
 	</body>
 </html>
