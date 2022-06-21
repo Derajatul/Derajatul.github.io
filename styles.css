@@ -29,6 +29,11 @@ nav{
 	align-items: center;
 	justify-content: center;
 }
+.gambar > .anjime > img{
+	width: 400px;
+	height: auto;
+
+}
 .nama {
 	color: #c341da;
 }
