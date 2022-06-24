@@ -1,10 +1,12 @@
-body {
-	background-color: #0f172a;
+* {
 	margin: 0;
 	padding: 0;
+}
+body {
+	background-color: #0f172a;
 	color: white;
 }
-nav{
+nav {
 	background-color: #0b101e;
 }
 /*hero section*/
@@ -12,15 +14,14 @@ nav{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	margin-top: 20px;
-	height: 84vh;
+	height: 90vh;
 }
 
 .profile {
 	flex: 1;
 	padding: 0 50px;
-
 }
 .gambar {
 	flex: 1;
@@ -30,11 +31,7 @@ nav{
 	align-items: center;
 	justify-content: center;
 }
-.gambar > .anjime > img{
-	max-width: 400px;
-	height: auto;
 
-}
 .nama {
 	color: #c341da;
 }
@@ -58,4 +55,72 @@ a {
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
+}
+
+.jarak {
+	height: 15px;
+}
+/* Skill */
+
+.container-card-skill {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.skill > h2 {
+	text-align: center;
+	color: #c341da;
+	padding: 50px 0;
+}
+.card-skill {
+	background-color: white;
+	height: 250px;
+	width: 450px;
+	border-radius: 30px;
+	margin-top: 50px;
+	display: flex;
+	margin: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+.card-skill:hover {
+	box-shadow: inset 0 0 25px #c341da;
+}
+.card-skill > .logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo {
+	flex: 1;
+}
+.skillnya {
+	color: black;
+	flex: 1.3;
+}
+.deskripsi-skill > p {
+	margin-top: -10px;
+}
+.nama-skill {
+	padding-bottom: 10px;
+	padding-top: 13px;
+}
+.html {
+	width: 140px;
+}
+.css {
+	width: 100px;
+}
+/* Akhir Skill */
+
+/* Responsive Android */
+@media screen and (max-width: 764px) {
+	.hero-section {
+		height: 130vh;
+	}
+	.gambar > .anjime > img {
+		max-width: 400px;
+	}
 }
